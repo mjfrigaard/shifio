@@ -1,24 +1,14 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
 
 # shifio
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
-The goal of `shifio` is to demonstrate the [`shinyFiles` package](https://github.com/thomasp85/shinyFiles) features
+The goal of `shifio` is to demonstrate the [`shinyFiles`
+package](https://github.com/thomasp85/shinyFiles) features
 
 ## Installation
 
@@ -31,7 +21,7 @@ remotes::install_github("cdcent/shifio")
 
 ## Launch the app
 
-```{r example, eval=FALSE}
+``` r
 library(shifio)
 launch(run = "p")
 ```
